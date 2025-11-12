@@ -1,0 +1,83 @@
+{
+  "literature": {
+    "calcium_dynamics": {
+      "rise_time_ms": [
+        200.0,
+        500.0
+      ],
+      "decay_time_s": [
+        1.0,
+        2.0
+      ],
+      "threshold_um": 0.5,
+      "spatial_spread_um": [
+        20.0,
+        50.0
+      ]
+    },
+    "frequency_modulation": {
+      "low_freq_range_hz": [
+        1.0,
+        10.0
+      ],
+      "low_freq_oe_ratio": [
+        1.4,
+        2.0
+      ],
+      "high_freq_range_hz": [
+        30.0,
+        50.0
+      ],
+      "high_freq_oe_ratio": [
+        0.4,
+        0.5
+      ]
+    }
+  },
+  "parameters": {
+    "dt_s": 0.001,
+    "train_duration_s": 5.0,
+    "device": "cpu"
+  },
+  "calcium_dynamics": {
+    "baseline": 0.0,
+    "t_peak": 0.495,
+    "rise_time_ms": 495.0,
+    "decay_time_s": 4.5889999999999995,
+    "rise_time_within_range": true,
+    "decay_time_within_range": false
+  },
+  "frequency_modulation": {
+    "freqs_hz": [
+      1.0,
+      10.0,
+      30.0,
+      50.0
+    ],
+    "oe": [
+      1.0180135570441542,
+      1.6574058014649162,
+      0.42098680874113925,
+      0.35059290736074117
+    ],
+    "low_freq_oe_within_range": true,
+    "high_freq_oe_within_range": true,
+    "representatives": {
+      "10Hz_oe": 1.6574058014649162,
+      "30Hz_oe": 0.42098680874113925
+    }
+  },
+  "blockade_tests": {
+    "mGluR_block_10Hz_OE": NaN,
+    "mAChR_block_10Hz_OE": NaN,
+    "interpretation": "Lower O/E with blockade indicates Ca2+ response depends on the targeted receptor."
+  },
+  "notes": {},
+  "pass_flags": {
+    "rise_time_ms_in_range": true,
+    "decay_time_s_in_range": false,
+    "low_freq_oe_in_range": true,
+    "high_freq_oe_in_range": true
+  },
+  "score_fraction_passed": 0.75
+}

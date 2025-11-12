@@ -1,0 +1,12 @@
+{
+  "rheobase_allen_pA": 70.0,
+  "rheobase_cortex_pA": 10.0,
+  "rheobase_delta_pA": -60.0,
+  "slope_m": 1.070328542094456,
+  "intercept_b": 6.3634496919917884,
+  "r2": 0.960256028514174,
+  "mae_hz": 7.181818181818182,
+  "rmse_hz": 7.525713496829629,
+  "n_points_paired": 11,
+  "validator_gain": 1.9534883720930234
+}

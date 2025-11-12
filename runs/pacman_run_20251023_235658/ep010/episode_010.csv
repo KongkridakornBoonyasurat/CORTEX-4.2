@@ -1,0 +1,2 @@
+episode,return,steps,ate,dopamine_mean,d_star,efficiency,turns,spike_count,firing_rate,E_rate,I_rate,ATP_proxy,DA_mean,ACh_mean,E_I_balance
+10,1.83,2,1,0.7429251968860626,2,1.0,0,33,16.5,1.0499999523162842,1.0500000715255737,33.210000002384184,1.0986757278442383,1.247249722480774,0.999999886467351

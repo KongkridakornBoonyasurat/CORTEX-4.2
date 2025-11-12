@@ -1,0 +1,20 @@
+{
+  "pprs": {
+    "20": 1.0,
+    "50": 1.0,
+    "100": 1.0,
+    "200": 1.0
+  },
+  "literature": {
+    "excitatory_cortical": {
+      "PPR_20Hz": 0.75,
+      "PPR_50Hz": 0.65,
+      "source": "Markram et al. (1998) J Physiol"
+    },
+    "excitatory_hippocampal": {
+      "PPR_20Hz": 0.85,
+      "PPR_50Hz": 0.7,
+      "source": "Dobrunz & Stevens (1997) Neuron"
+    }
+  }
+}

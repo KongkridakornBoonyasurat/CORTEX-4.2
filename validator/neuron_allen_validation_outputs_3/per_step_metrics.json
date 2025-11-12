@@ -1,0 +1,589 @@
+{
+  "10": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "matched_pairs": [],
+    "isi_allen": {
+      "mean_ms": NaN,
+      "cv": NaN,
+      "adapt": NaN,
+      "latency_ms": NaN
+    },
+    "isi_cortex": {
+      "mean_ms": NaN,
+      "cv": NaN,
+      "adapt": NaN,
+      "latency_ms": 74.29999999999447
+    },
+    "ap_allen": {
+      "n": 0,
+      "peak_mV_avg": NaN,
+      "trough_mV_avg": NaN,
+      "halfwidth_ms_avg": NaN,
+      "ahp_depth_mV_avg": NaN,
+      "dvdtmax_mVms_avg": NaN
+    },
+    "ap_cortex": {
+      "n": 1,
+      "peak_mV_avg": -66.3771743774414,
+      "trough_mV_avg": -66.75729370117188,
+      "halfwidth_ms_avg": 1.0,
+      "ahp_depth_mV_avg": 0.0,
+      "dvdtmax_mVms_avg": 0.1934814453125
+    },
+    "subthreshold_allen": {
+      "baseline_mV": -75.00504928641021,
+      "dV_ss_mV": 3.5267841234803283,
+      "Rin_MOhm": 352.67841234803285,
+      "tau_ms": 28496.7638295027
+    },
+    "subthreshold_cortex": {
+      "baseline_mV": -69.97649044036866,
+      "dV_ss_mV": -49.62993678283691,
+      "Rin_MOhm": -4962.99367828369,
+      "tau_ms": 3.0015006669877002e-05
+    }
+  },
+  "30": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "matched_pairs": [],
+    "isi_allen": {
+      "mean_ms": NaN,
+      "cv": NaN,
+      "adapt": NaN,
+      "latency_ms": NaN
+    },
+    "isi_cortex": {
+      "mean_ms": 159.0249999999825,
+      "cv": 1.4503437367090535,
+      "adapt": 1.0647709320695102,
+      "latency_ms": 38.74999999999838
+    },
+    "ap_allen": {
+      "n": 0,
+      "peak_mV_avg": NaN,
+      "trough_mV_avg": NaN,
+      "halfwidth_ms_avg": NaN,
+      "ahp_depth_mV_avg": NaN,
+      "dvdtmax_mVms_avg": NaN
+    },
+    "ap_cortex": {
+      "n": 5,
+      "peak_mV_avg": -71.90320205688477,
+      "trough_mV_avg": -73.15095825195313,
+      "halfwidth_ms_avg": 1.01,
+      "ahp_depth_mV_avg": 1.19263916015625,
+      "dvdtmax_mVms_avg": 0.64495849609375
+    },
+    "subthreshold_allen": {
+      "baseline_mV": -74.72394652105868,
+      "dV_ss_mV": 11.278337011858818,
+      "Rin_MOhm": 375.94459096387396,
+      "tau_ms": 24207.855691852328
+    },
+    "subthreshold_cortex": {
+      "baseline_mV": -69.97649044036866,
+      "dV_ss_mV": -50.02350955963139,
+      "Rin_MOhm": -1667.4503186543795,
+      "tau_ms": 3.0015006669877002e-05
+    }
+  },
+  "50": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "matched_pairs": [],
+    "isi_allen": {
+      "mean_ms": NaN,
+      "cv": NaN,
+      "adapt": NaN,
+      "latency_ms": NaN
+    },
+    "isi_cortex": {
+      "mean_ms": 111.01874999998778,
+      "cv": 1.232313809444861,
+      "adapt": 2.764525993883792,
+      "latency_ms": 27.999999999999567
+    },
+    "ap_allen": {
+      "n": 0,
+      "peak_mV_avg": NaN,
+      "trough_mV_avg": NaN,
+      "halfwidth_ms_avg": NaN,
+      "ahp_depth_mV_avg": NaN,
+      "dvdtmax_mVms_avg": NaN
+    },
+    "ap_cortex": {
+      "n": 9,
+      "peak_mV_avg": -70.22102610270183,
+      "trough_mV_avg": -71.09779273139105,
+      "halfwidth_ms_avg": 0.9888888888888889,
+      "ahp_depth_mV_avg": 1.351451449924045,
+      "dvdtmax_mVms_avg": 0.4646725124782986
+    },
+    "subthreshold_allen": {
+      "baseline_mV": -74.9038616605103,
+      "dV_ss_mV": 20.959829003177582,
+      "Rin_MOhm": 419.1965800635516,
+      "tau_ms": 20888.77474025155
+    },
+    "subthreshold_cortex": {
+      "baseline_mV": -69.97649044036866,
+      "dV_ss_mV": 0.7290168094635091,
+      "Rin_MOhm": 14.58033618927018,
+      "tau_ms": 617884.4851208318
+    }
+  },
+  "70": {
+    "precision": 0.08333333333333333,
+    "recall": 0.25,
+    "f1": 0.125,
+    "matched_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "isi_allen": {
+      "mean_ms": 220.90833333333333,
+      "cv": 0.05214235819352911,
+      "adapt": 0.938086024706057,
+      "latency_ms": 226.32999999999993
+    },
+    "isi_cortex": {
+      "mean_ms": 78.336363636355,
+      "cv": 0.7072561761801868,
+      "adapt": 3.260869565217391,
+      "latency_ms": 22.60000000000016
+    },
+    "ap_allen": {
+      "n": 4,
+      "peak_mV_avg": -74.00781475007534,
+      "trough_mV_avg": -74.21875186264515,
+      "halfwidth_ms_avg": 0.015000000000000001,
+      "ahp_depth_mV_avg": 0.24999864399433136,
+      "dvdtmax_mVms_avg": 29.687955975532528
+    },
+    "ap_cortex": {
+      "n": 12,
+      "peak_mV_avg": -63.892266591389976,
+      "trough_mV_avg": -64.39278920491536,
+      "halfwidth_ms_avg": 0.8458333333333333,
+      "ahp_depth_mV_avg": 0.5563615163167318,
+      "dvdtmax_mVms_avg": 0.3124745686848958
+    },
+    "subthreshold_allen": {
+      "baseline_mV": -74.05833710730076,
+      "dV_ss_mV": 21.316678065806624,
+      "Rin_MOhm": 304.52397236866597,
+      "tau_ms": 37341.39230112907
+    },
+    "subthreshold_cortex": {
+      "baseline_mV": -69.97649044036866,
+      "dV_ss_mV": 0.7814080505371135,
+      "Rin_MOhm": 11.16297215053019,
+      "tau_ms": 618902.7476345284
+    }
+  },
+  "90": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "matched_pairs": [],
+    "isi_allen": {
+      "mean_ms": 126.64083333333332,
+      "cv": 0.038363839476136724,
+      "adapt": 1.0468978789273302,
+      "latency_ms": 128.085
+    },
+    "isi_cortex": {
+      "mean_ms": 62.85666666666154,
+      "cv": 0.37412215473686844,
+      "adapt": 8.651933701660427,
+      "latency_ms": 19.25000000000053
+    },
+    "ap_allen": {
+      "n": 7,
+      "peak_mV_avg": -76.4062511069434,
+      "trough_mV_avg": -76.60268140690667,
+      "halfwidth_ms_avg": 0.07428571428571429,
+      "ahp_depth_mV_avg": 0.22321407284055436,
+      "dvdtmax_mVms_avg": 22.32193946838379
+    },
+    "ap_cortex": {
+      "n": 16,
+      "peak_mV_avg": -62.67214822769165,
+      "trough_mV_avg": -62.8598370552063,
+      "halfwidth_ms_avg": 0.253125,
+      "ahp_depth_mV_avg": 0.48160672187805176,
+      "dvdtmax_mVms_avg": 0.06600379943847656
+    },
+    "subthreshold_allen": {
+      "baseline_mV": -76.42069808021188,
+      "dV_ss_mV": 27.074373508617278,
+      "Rin_MOhm": 300.82637231796974,
+      "tau_ms": 37754.211900811504
+    },
+    "subthreshold_cortex": {
+      "baseline_mV": -69.97649044036866,
+      "dV_ss_mV": 9.731466932296762,
+      "Rin_MOhm": 108.12741035885291,
+      "tau_ms": 580543.3278338753
+    }
+  },
+  "110": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "matched_pairs": [],
+    "isi_allen": {
+      "mean_ms": 93.39611111111111,
+      "cv": 0.04993362091231335,
+      "adapt": 1.115474657614424,
+      "latency_ms": 90.17000000000009
+    },
+    "isi_cortex": {
+      "mean_ms": 51.57499999999432,
+      "cv": 0.37275335664927783,
+      "adapt": 7.9480519480519485,
+      "latency_ms": 17.000000000000778
+    },
+    "ap_allen": {
+      "n": 10,
+      "peak_mV_avg": -77.4125024676323,
+      "trough_mV_avg": -77.61562615633011,
+      "halfwidth_ms_avg": 0.037500000000000006,
+      "ahp_depth_mV_avg": 0.224999338388443,
+      "dvdtmax_mVms_avg": 26.87513828277588
+    },
+    "ap_cortex": {
+      "n": 19,
+      "peak_mV_avg": -61.61444653962788,
+      "trough_mV_avg": -61.79637949090255,
+      "halfwidth_ms_avg": 0.2605263157894737,
+      "ahp_depth_mV_avg": 0.7265327855160362,
+      "dvdtmax_mVms_avg": -0.014893381219161185
+    },
+    "subthreshold_allen": {
+      "baseline_mV": -77.87741483002901,
+      "dV_ss_mV": 33.11366227345643,
+      "Rin_MOhm": 301.0332933950585,
+      "tau_ms": 37477.54187196419
+    },
+    "subthreshold_cortex": {
+      "baseline_mV": -69.97649044036866,
+      "dV_ss_mV": 10.7430097026825,
+      "Rin_MOhm": 97.66372456984092,
+      "tau_ms": 585354.037161068
+    }
+  },
+  "130": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "matched_pairs": [],
+    "isi_allen": {
+      "mean_ms": 65.79321428571428,
+      "cv": 0.10752428958867244,
+      "adapt": 1.5776860336320626,
+      "latency_ms": 65.36999999999993
+    },
+    "isi_cortex": {
+      "mean_ms": 44.31136363636281,
+      "cv": 0.359773323134146,
+      "adapt": 7.762962962976187,
+      "latency_ms": 15.35000000000096
+    },
+    "ap_allen": {
+      "n": 15,
+      "peak_mV_avg": -77.11458504199982,
+      "trough_mV_avg": -77.31875131527583,
+      "halfwidth_ms_avg": 0.037666666666666675,
+      "ahp_depth_mV_avg": 0.22916595141092935,
+      "dvdtmax_mVms_avg": 26.25008424123128
+    },
+    "ap_cortex": {
+      "n": 23,
+      "peak_mV_avg": -59.30434550409732,
+      "trough_mV_avg": -59.542745009712554,
+      "halfwidth_ms_avg": 0.3086956521739131,
+      "ahp_depth_mV_avg": 1.4245847619098166,
+      "dvdtmax_mVms_avg": 0.143482374108356
+    },
+    "subthreshold_allen": {
+      "baseline_mV": -77.14565093442798,
+      "dV_ss_mV": 35.53258592270413,
+      "Rin_MOhm": 273.327584020801,
+      "tau_ms": 47979.473217980354
+    },
+    "subthreshold_cortex": {
+      "baseline_mV": -69.97649044036866,
+      "dV_ss_mV": 11.552143234252938,
+      "Rin_MOhm": 88.86264026348414,
+      "tau_ms": 589320.8916904589
+    }
+  },
+  "150": {
+    "precision": 0.11538461538461539,
+    "recall": 0.16666666666666666,
+    "f1": 0.13636363636363638,
+    "matched_pairs": [
+      [
+        0,
+        4
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        11,
+        17
+      ]
+    ],
+    "isi_allen": {
+      "mean_ms": 54.42264705882354,
+      "cv": 0.12647383303782117,
+      "adapt": 1.5638045244344474,
+      "latency_ms": 51.609999999999935
+    },
+    "isi_cortex": {
+      "mean_ms": 38.63999999999841,
+      "cv": 0.35773853614939455,
+      "adapt": 7.500000000010939,
+      "latency_ms": 14.050000000001104
+    },
+    "ap_allen": {
+      "n": 18,
+      "peak_mV_avg": -76.55729270643658,
+      "trough_mV_avg": -76.7569463286135,
+      "halfwidth_ms_avg": 0.03305555555555556,
+      "ahp_depth_mV_avg": 0.23611055480109322,
+      "dvdtmax_mVms_avg": 27.43055423100789
+    },
+    "ap_cortex": {
+      "n": 26,
+      "peak_mV_avg": -55.69895553588867,
+      "trough_mV_avg": -56.754897777850815,
+      "halfwidth_ms_avg": 0.9961538461538461,
+      "ahp_depth_mV_avg": 4.880698424119216,
+      "dvdtmax_mVms_avg": 0.5758901742788461
+    },
+    "subthreshold_allen": {
+      "baseline_mV": -76.83443858101964,
+      "dV_ss_mV": 37.184689243497814,
+      "Rin_MOhm": 247.89792828998543,
+      "tau_ms": 114838.87939620572
+    },
+    "subthreshold_cortex": {
+      "baseline_mV": -69.97649044036866,
+      "dV_ss_mV": 11.66162146377564,
+      "Rin_MOhm": 77.7441430918376,
+      "tau_ms": 594118.4061640962
+    }
+  },
+  "170": {
+    "precision": 0.10344827586206896,
+    "recall": 0.13636363636363635,
+    "f1": 0.11764705882352941,
+    "matched_pairs": [
+      [
+        10,
+        15
+      ],
+      [
+        15,
+        21
+      ],
+      [
+        19,
+        26
+      ]
+    ],
+    "isi_allen": {
+      "mean_ms": 45.666428571428575,
+      "cv": 0.13915397735345467,
+      "adapt": 1.7794305822137018,
+      "latency_ms": 40.68500000000008
+    },
+    "isi_cortex": {
+      "mean_ms": 34.324999999998134,
+      "cv": 0.35592027589371483,
+      "adapt": 7.203539823018341,
+      "latency_ms": 13.050000000001214
+    },
+    "ap_allen": {
+      "n": 22,
+      "peak_mV_avg": -76.64772902022709,
+      "trough_mV_avg": -76.85653594407168,
+      "halfwidth_ms_avg": 0.018181818181818188,
+      "ahp_depth_mV_avg": 0.24289773269133133,
+      "dvdtmax_mVms_avg": 26.704912835901435
+    },
+    "ap_cortex": {
+      "n": 29,
+      "peak_mV_avg": -57.375779382113755,
+      "trough_mV_avg": -58.25549369022764,
+      "halfwidth_ms_avg": 1.0017241379310344,
+      "ahp_depth_mV_avg": 0.4112437018032732,
+      "dvdtmax_mVms_avg": 0.47045477505387934
+    },
+    "subthreshold_allen": {
+      "baseline_mV": -76.89632935449481,
+      "dV_ss_mV": 36.406139392313705,
+      "Rin_MOhm": 214.15376113125708,
+      "tau_ms": 165629.2794119109
+    },
+    "subthreshold_cortex": {
+      "baseline_mV": -69.97649044036866,
+      "dV_ss_mV": 11.825750684738164,
+      "Rin_MOhm": 69.56323932198922,
+      "tau_ms": 597574.4248188193
+    }
+  },
+  "190": {
+    "precision": 0.15625,
+    "recall": 0.2,
+    "f1": 0.17543859649122806,
+    "matched_pairs": [
+      [
+        2,
+        7
+      ],
+      [
+        13,
+        18
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        24,
+        31
+      ]
+    ],
+    "isi_allen": {
+      "mean_ms": 38.98041666666666,
+      "cv": 0.13765108832820577,
+      "adapt": 1.6744141741283969,
+      "latency_ms": 34.18999999999994
+    },
+    "isi_cortex": {
+      "mean_ms": 30.925806451611,
+      "cv": 0.35399805040844723,
+      "adapt": 6.924528301895494,
+      "latency_ms": 12.200000000001266
+    },
+    "ap_allen": {
+      "n": 25,
+      "peak_mV_avg": -75.96250176429749,
+      "trough_mV_avg": -76.16000175476074,
+      "halfwidth_ms_avg": 0.0328,
+      "ahp_depth_mV_avg": 0.24625062942504883,
+      "dvdtmax_mVms_avg": 26.00020170211792
+    },
+    "ap_cortex": {
+      "n": 32,
+      "peak_mV_avg": -58.84463715553284,
+      "trough_mV_avg": -59.552040338516235,
+      "halfwidth_ms_avg": 0.9890625,
+      "ahp_depth_mV_avg": 0.1870105266571045,
+      "dvdtmax_mVms_avg": 0.39565324783325195
+    },
+    "subthreshold_allen": {
+      "baseline_mV": -76.48939959704876,
+      "dV_ss_mV": 38.78191750473343,
+      "Rin_MOhm": 204.11535528807067,
+      "tau_ms": 72929.71268285463
+    },
+    "subthreshold_cortex": {
+      "baseline_mV": -69.97649044036866,
+      "dV_ss_mV": 12.084298879623416,
+      "Rin_MOhm": 63.60157305064956,
+      "tau_ms": 485450.1674387827
+    }
+  },
+  "210": {
+    "precision": 0.2,
+    "recall": 0.25925925925925924,
+    "f1": 0.22580645161290322,
+    "matched_pairs": [
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        16,
+        22
+      ],
+      [
+        24,
+        32
+      ]
+    ],
+    "isi_allen": {
+      "mean_ms": 36.9425,
+      "cv": 0.1633699309021456,
+      "adapt": 1.9750173490631413,
+      "latency_ms": 31.70499999999987
+    },
+    "isi_cortex": {
+      "mean_ms": 28.179411764704064,
+      "cv": 0.35205704547631556,
+      "adapt": 6.690000000008518,
+      "latency_ms": 11.500000000001245
+    },
+    "ap_allen": {
+      "n": 27,
+      "peak_mV_avg": -77.31713106234868,
+      "trough_mV_avg": -77.51620588479219,
+      "halfwidth_ms_avg": 0.04037037037037036,
+      "ahp_depth_mV_avg": 0.2511571402902956,
+      "dvdtmax_mVms_avg": 26.389183821501554
+    },
+    "ap_cortex": {
+      "n": 35,
+      "peak_mV_avg": -59.415342167445594,
+      "trough_mV_avg": -60.05090866088867,
+      "halfwidth_ms_avg": 0.9742857142857143,
+      "ahp_depth_mV_avg": 0.43897530691964287,
+      "dvdtmax_mVms_avg": 0.34906005859375
+    },
+    "subthreshold_allen": {
+      "baseline_mV": -77.58131365850568,
+      "dV_ss_mV": 41.8211378648939,
+      "Rin_MOhm": 199.1482755471138,
+      "tau_ms": 71479.18570158786
+    },
+    "subthreshold_cortex": {
+      "baseline_mV": -69.97649044036866,
+      "dV_ss_mV": 12.516222305297857,
+      "Rin_MOhm": 59.601058596656465,
+      "tau_ms": 381874.530673895
+    }
+  }
+}

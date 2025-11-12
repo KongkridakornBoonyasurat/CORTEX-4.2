@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: cortex
+Version: 4.1
+Summary: Modular Bio-Inspired Sentient AI Cortex
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pytest

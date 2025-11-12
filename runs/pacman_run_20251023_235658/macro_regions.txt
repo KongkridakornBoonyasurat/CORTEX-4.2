@@ -1,0 +1,10 @@
+motor
+sensory
+thalamus
+cerebellum
+parietal
+pfc
+limbic
+hippocampus
+insula
+basal_ganglia

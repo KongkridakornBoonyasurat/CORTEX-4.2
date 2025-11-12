@@ -1,0 +1,26 @@
+{
+  "episode": 40,
+  "neural_dynamics": {
+    "mean_firing_rate": 0.0,
+    "spike_count": 0,
+    "voltage_stats": {}
+  },
+  "network": {
+    "mean_coherence": 0,
+    "mean_synchronization": 0
+  },
+  "learning": {
+    "mean_td_error": 0,
+    "final_value": 0,
+    "mean_entropy": 0
+  },
+  "neuromodulation": {
+    "mean_dopamine": 0,
+    "mean_acetylcholine": 0,
+    "mean_norepinephrine": 0
+  },
+  "behavioral": {
+    "mean_reaction_time": 0,
+    "mean_confidence": 0
+  }
+}

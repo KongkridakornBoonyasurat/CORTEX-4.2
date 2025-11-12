@@ -1,0 +1,293 @@
+(cortex) C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22>python list_allen_long_square.py
+{'specimen_id': 313860745, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 313861677, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 313861794, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 313861828, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 313861934, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 313862022, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 314529406, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 314617802, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 314642645, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 314800874, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 314800921, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 314804042, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 314822529, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 314831019, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 314857059, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 314900022, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 318733871, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 318808427, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 320207387, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+{'specimen_id': 320639930, 'dendrite_type': 'spiny', 'cre_line': None, 'structure': None}
+
+Found 20 candidates shown (more exist; adjust slicing as needed).
+
+(cortex) C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22>python validate_allen_fi_vs_cortex.py --specimen-id 314800874 --plot --csv --dt-ms 0.05 --steady-fraction 0.8 --inject-offset -70 --inject-scale 1.70
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+Enhanced Neuron 0 (pyramidal): CAdEx=ON, Device=cuda
+
+F–I comparison (steady-state rates)
+current_pA      Allen_Hz        CORTEX_Hz
+-90.0           0.000           0.000
+-70.0           0.000           0.000
+-50.0           0.000           0.000
+-30.0           0.000           0.000
+-10.0           0.000           0.000
++10.0           0.000           0.000
++30.0           0.000           0.000
++50.0           0.000           0.000
++70.0           5.000           0.000
++90.0           8.750           4.000
++110.0          10.000          7.000
++130.0          15.000          9.000
++150.0          17.500          12.000
++170.0          22.500          15.000
++190.0          25.000          18.000
++210.0          26.250          21.000
+
+Rank correlation on nonzero-Allen points: rho=1.000
+Saved: C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22\allen_validation_outputs\fi_compare.csv
+Saved: C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22\allen_validation_outputs\fi_compare.png
+
+(cortex) C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22>python allen_connectivity_check.py --source MOs  --target MOp --verbose --max-exps 5
+[1/5] Initializing MouseConnectivityCache(resolution=100 µm)
+[2/5] Loading structure tree…
+[3/5] Source=MOs (id=993), Target=MOp (id=985), Hemi=both, Metric=projection_density
+[4/5] Querying injection experiments for the source…
+Found 145 experiments. Limiting to 5.
+[5/5] Downloading unionizes per experiment…
+  (1/5) experiment 602828622:
+    -> unionizes(experiment_ids=[602828622], include_descendants=True)
+    -> projection_density sum = 0.015307
+  (2/5) experiment 517314004:
+    -> unionizes(experiment_ids=[517314004], include_descendants=True)
+    -> projection_density sum = 0.234017
+  (3/5) experiment 614735393:
+    -> unionizes(experiment_ids=[614735393], include_descendants=True)
+    -> projection_density sum = 0.425997
+  (4/5) experiment 100141454:
+    -> unionizes(experiment_ids=[100141454], include_descendants=True)
+    -> projection_density sum = 0.276439
+  (5/5) experiment 575216368:
+    -> unionizes(experiment_ids=[575216368], include_descendants=True)
+    -> projection_density sum = 0.078877
+
+Summary MOs -> MOp  (n=5 of 5 used)
+  mean projection_density:   0.206127
+  median projection_density: 0.234017
+  std projection_density:    0.163301
+Saved per-experiment CSV: C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22\allen_connectivity_outputs\projection_density_MOs_to_MOp.csv
+
+(cortex) C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22>python allen_connectivity_check.py --source VISp --target SSp --verbose --max-exps 5
+[1/5] Initializing MouseConnectivityCache(resolution=100 µm)
+[2/5] Loading structure tree…
+[3/5] Source=VISp (id=385), Target=SSp (id=322), Hemi=both, Metric=projection_density
+[4/5] Querying injection experiments for the source…
+Found 282 experiments. Limiting to 5.
+[5/5] Downloading unionizes per experiment…
+  (1/5) experiment 500836840:
+    -> unionizes(experiment_ids=[500836840], include_descendants=True)
+    -> projection_density sum = 0.061724
+  (2/5) experiment 307297141:
+    -> unionizes(experiment_ids=[307297141], include_descendants=True)
+    -> projection_density sum = 0.206405
+  (3/5) experiment 272821309:
+    -> unionizes(experiment_ids=[272821309], include_descendants=True)
+    -> projection_density sum = 0.039690
+  (4/5) experiment 512315551:
+    -> unionizes(experiment_ids=[512315551], include_descendants=True)
+    -> projection_density sum = 0.337654
+  (5/5) experiment 510581751:
+    -> unionizes(experiment_ids=[510581751], include_descendants=True)
+    -> projection_density sum = 0.004461
+
+Summary VISp -> SSp  (n=5 of 5 used)
+  mean projection_density:   0.129987
+  median projection_density: 0.061724
+  std projection_density:    0.139226
+Saved per-experiment CSV: C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22\allen_connectivity_outputs\projection_density_VISp_to_SSp.csv
+
+(cortex) C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22>python allen_connectivity_check.py --source VISp --target MOp --verbose --max-exps 5
+[1/5] Initializing MouseConnectivityCache(resolution=100 µm)
+[2/5] Loading structure tree…
+[3/5] Source=VISp (id=385), Target=MOp (id=985), Hemi=both, Metric=projection_density
+[4/5] Querying injection experiments for the source…
+Found 282 experiments. Limiting to 5.
+[5/5] Downloading unionizes per experiment…
+  (1/5) experiment 500836840:
+    -> unionizes(experiment_ids=[500836840], include_descendants=True)
+    -> projection_density sum = 0.001100
+  (2/5) experiment 307297141:
+    -> unionizes(experiment_ids=[307297141], include_descendants=True)
+    -> projection_density sum = 0.005217
+  (3/5) experiment 272821309:
+    -> unionizes(experiment_ids=[272821309], include_descendants=True)
+    -> projection_density sum = 0.001154
+  (4/5) experiment 512315551:
+    -> unionizes(experiment_ids=[512315551], include_descendants=True)
+    -> projection_density sum = 0.003793
+  (5/5) experiment 510581751:
+    -> unionizes(experiment_ids=[510581751], include_descendants=True)
+    -> projection_density sum = 0.000538
+
+Summary VISp -> MOp  (n=5 of 5 used)
+  mean projection_density:   0.002360
+  median projection_density: 0.001154
+  std projection_density:    0.002036
+Saved per-experiment CSV: C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22\allen_connectivity_outputs\projection_density_VISp_to_MOp.csv
+
+(cortex) C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22>python allen_connectivity_check.py --source SSp  --target MOp --verbose --max-exps 5
+[1/5] Initializing MouseConnectivityCache(resolution=100 µm)
+[2/5] Loading structure tree…
+[3/5] Source=SSp (id=322), Target=MOp (id=985), Hemi=both, Metric=projection_density
+[4/5] Querying injection experiments for the source…
+Found 181 experiments. Limiting to 5.
+[5/5] Downloading unionizes per experiment…
+  (1/5) experiment 644250774:
+    -> unionizes(experiment_ids=[644250774], include_descendants=True)
+    -> projection_density sum = 0.000074
+  (2/5) experiment 168513750:
+    -> unionizes(experiment_ids=[168513750], include_descendants=True)
+    -> projection_density sum = 0.000334
+  (3/5) experiment 167570021:
+    -> unionizes(experiment_ids=[167570021], include_descendants=True)
+    -> projection_density sum = 0.109797
+  (4/5) experiment 159888336:
+    -> unionizes(experiment_ids=[159888336], include_descendants=True)
+    -> projection_density sum = 0.165163
+  (5/5) experiment 297948420:
+    -> unionizes(experiment_ids=[297948420], include_descendants=True)
+    -> projection_density sum = 0.095151
+
+Summary SSp -> MOp  (n=5 of 5 used)
+  mean projection_density:   0.074104
+  median projection_density: 0.095151
+  std projection_density:    0.072338
+Saved per-experiment CSV: C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22\allen_connectivity_outputs\projection_density_SSp_to_MOp.csv
+
+(cortex) C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22>python allen_connectivity_check.py --source MOs  --target SSp --verbose --max-exps 5
+[1/5] Initializing MouseConnectivityCache(resolution=100 µm)
+[2/5] Loading structure tree…
+[3/5] Source=MOs (id=993), Target=SSp (id=322), Hemi=both, Metric=projection_density
+[4/5] Querying injection experiments for the source…
+Found 145 experiments. Limiting to 5.
+[5/5] Downloading unionizes per experiment…
+  (1/5) experiment 602828622:
+    -> unionizes(experiment_ids=[602828622], include_descendants=True)
+    -> projection_density sum = 0.009087
+  (2/5) experiment 517314004:
+    -> unionizes(experiment_ids=[517314004], include_descendants=True)
+    -> projection_density sum = 0.492760
+  (3/5) experiment 614735393:
+    -> unionizes(experiment_ids=[614735393], include_descendants=True)
+    -> projection_density sum = 0.978499
+  (4/5) experiment 100141454:
+    -> unionizes(experiment_ids=[100141454], include_descendants=True)
+    -> projection_density sum = 0.828505
+  (5/5) experiment 575216368:
+    -> unionizes(experiment_ids=[575216368], include_descendants=True)
+    -> projection_density sum = 0.115958
+
+Summary MOs -> SSp  (n=5 of 5 used)
+  mean projection_density:   0.484962
+  median projection_density: 0.492760
+  std projection_density:    0.425524
+Saved per-experiment CSV: C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22\allen_connectivity_outputs\projection_density_MOs_to_SSp.csv
+
+(cortex) C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22>
+
+(cortex) C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22>python allen_connectivity_check.py --source VISp --target AUDp --verbose --max-exps 5
+[1/5] Initializing MouseConnectivityCache(resolution=100 µm)
+[2/5] Loading structure tree…
+[3/5] Source=VISp (id=385), Target=AUDp (id=1002), Hemi=both, Metric=projection_density
+[4/5] Querying injection experiments for the source…
+Found 282 experiments. Limiting to 5.
+[5/5] Downloading unionizes per experiment…
+  (1/5) experiment 500836840:
+    -> unionizes(experiment_ids=[500836840], include_descendants=True)
+    -> projection_density sum = 0.029438
+  (2/5) experiment 307297141:
+    -> unionizes(experiment_ids=[307297141], include_descendants=True)
+    -> projection_density sum = 0.054049
+  (3/5) experiment 272821309:
+    -> unionizes(experiment_ids=[272821309], include_descendants=True)
+    -> projection_density sum = 0.003551
+  (4/5) experiment 512315551:
+    -> unionizes(experiment_ids=[512315551], include_descendants=True)
+    -> projection_density sum = 0.072752
+  (5/5) experiment 510581751:
+    -> unionizes(experiment_ids=[510581751], include_descendants=True)
+    -> projection_density sum = 0.000339
+
+Summary VISp -> AUDp  (n=5 of 5 used)
+  mean projection_density:   0.032026
+  median projection_density: 0.029438
+  std projection_density:    0.031485
+Saved per-experiment CSV: C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22\allen_connectivity_outputs\projection_density_VISp_to_AUDp.csv
+
+(cortex) C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22>python allen_connectivity_check.py --source VISp --target MOs --verbose --max-exps 5
+[1/5] Initializing MouseConnectivityCache(resolution=100 µm)
+[2/5] Loading structure tree…
+[3/5] Source=VISp (id=385), Target=MOs (id=993), Hemi=both, Metric=projection_density
+[4/5] Querying injection experiments for the source…
+Found 282 experiments. Limiting to 5.
+[5/5] Downloading unionizes per experiment…
+  (1/5) experiment 500836840:
+    -> unionizes(experiment_ids=[500836840], include_descendants=True)
+    -> projection_density sum = 0.008175
+  (2/5) experiment 307297141:
+    -> unionizes(experiment_ids=[307297141], include_descendants=True)
+    -> projection_density sum = 0.018853
+  (3/5) experiment 272821309:
+    -> unionizes(experiment_ids=[272821309], include_descendants=True)
+    -> projection_density sum = 0.005243
+  (4/5) experiment 512315551:
+    -> unionizes(experiment_ids=[512315551], include_descendants=True)
+    -> projection_density sum = 0.018688
+  (5/5) experiment 510581751:
+    -> unionizes(experiment_ids=[510581751], include_descendants=True)
+    -> projection_density sum = 0.000838
+
+Summary VISp -> MOs  (n=5 of 5 used)
+  mean projection_density:   0.010359
+  median projection_density: 0.008175
+  std projection_density:    0.008110
+Saved per-experiment CSV: C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22\allen_connectivity_outputs\projection_density_VISp_to_MOs.csv
+
+(cortex) C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22>python compare_connectivity_with_cortex.py --allen-dir allen_connectivity_outputs --cortex cortex_weights.xlsx
+[read_excel] weights: OK (cortex_weights.xlsx)
+[read_csv] projection_density_MOs_to_MOp.csv: OK with encoding=utf-8 sep=None
+[read_csv] projection_density_MOs_to_SSp.csv: OK with encoding=utf-8 sep=None
+[read_csv] projection_density_SSp_to_MOp.csv: OK with encoding=utf-8 sep=None
+[read_csv] projection_density_VISp_to_AUDp.csv: OK with encoding=utf-8 sep=None
+[read_csv] projection_density_VISp_to_MOp.csv: OK with encoding=utf-8 sep=None
+[read_csv] projection_density_VISp_to_MOs.csv: OK with encoding=utf-8 sep=None
+[read_csv] projection_density_VISp_to_SSp.csv: OK with encoding=utf-8 sep=None
+
+Saved: connectivity_cortex_vs_allen.png
+
+Merged preview:
+         key  weight  allen_mean  allen_sum
+0   MOS→MOP    0.75    0.206127   1.030636
+1  VISP→SSP    0.55    0.129987   0.649933
+2  VISP→MOP    0.10    0.002360   0.011802
+
+Spearman rho = 1.000  (using mean per pair)
+
+(cortex) C:\Users\User\Desktop\Brain AI\cortex 4.2\cortex 4.2 v22>
+
+
