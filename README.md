@@ -1,4 +1,15 @@
 # CORTEX 4.2 — Biophysically Grounded Brain Simulation Platform
+---
+This project was developed as part of the **Undergraduate Senior Thesis** in  
+**Biomedical Engineering, King Mongkut’s Institute of Technology Ladkrabang (KMITL), Thailand.**
+
+**Project Title:** *CORTEX 4.2: A Biophysically Grounded Brain Simulation Platform for Biomedical Neural Modeling*  
+**Authors:** Kongkridakorn Boonyasurat, Punnut Phoungmalai   
+**Advisor:** Prof. Dr. Chuchart Pintavirooj
+
+The CORTEX 4.2 framework was designed to explore biologically grounded spiking neural networks and synthetic EEG generation for biomedical applications.  
+This open-source repository accompanies the official thesis submission and demonstration presented to the KMITL Biomedical Engineering Department, 2025.
+---
 
 **CORTEX 4.2** is an open-source, GPU-accelerated brain simulation and neuromorphic AI framework designed for **biomedical neural modeling**, **synthetic EEG generation**, and **reinforcement-learning-driven behavior**.
 It integrates **multi-compartment neuron models**, **astrocyte–neuron coupling**, and **tri-modulator (DA/ACh/NE) plasticity** inside a scalable, PyTorch-based architecture.
