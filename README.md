@@ -158,4 +158,3 @@ You are free to use, modify, and distribute this software for academic or commer
 
 ---
 
-Would you like me to append a short “Quick Project Structure” diagram (with emojis + descriptions for each folder) or keep this README summary clean and academic-style like above?
