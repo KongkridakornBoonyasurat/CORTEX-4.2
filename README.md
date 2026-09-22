@@ -1,4 +1,4 @@
-# CORTEX 4.2 — Biophysically Grounded Brain Simulation Platform
+# CORTEX 4.2 Biophysically Grounded Brain Simulation Platform
 ---
 This project was developed as part of the **Undergraduate Senior Thesis** in  
 **Biomedical Engineering, King Mongkut’s Institute of Technology Ladkrabang (KMITL), Thailand.**
@@ -54,37 +54,37 @@ cortex/
 
 ## Supported Brain Regions
 
-Sensory Cortex (42) – Responsible for perception, input encoding, and sensory feature extraction.
+Sensory Cortex (42) Responsible for perception, input encoding, and sensory feature extraction.
 Influenced mainly by acetylcholine (ACh) and glutamate, enhancing attention and sensory gain.
 
-Motor Cortex (42) – Generates movement output and supports motor learning and procedural plasticity.
+Motor Cortex (42) Generates movement output and supports motor learning and procedural plasticity.
 Modulated by dopamine (DA) and acetylcholine (ACh) to reinforce skill acquisition.
 
-Prefrontal Cortex (42) – Governs working memory, planning, and top-down decision control.
+Prefrontal Cortex (42) Governs working memory, planning, and top-down decision control.
 Driven by combined modulation of dopamine (DA), norepinephrine (NE), and acetylcholine (ACh).
 
-Hippocampus (42) – Encodes episodic memory, spatial navigation, and sequential replay.
+Hippocampus (42) Encodes episodic memory, spatial navigation, and sequential replay.
 Primarily shaped by dopamine (DA) and acetylcholine (ACh) activity.
 
-Limbic / Amygdala System (42) – Processes emotion, reward, and fear conditioning.
+Limbic / Amygdala System (42) Processes emotion, reward, and fear conditioning.
 Regulated by dopamine (DA) and norepinephrine (NE) for adaptive behavioral responses.
 
-Basal Ganglia System (42) – Implements action selection, reinforcement learning, and habit formation.
+Basal Ganglia System (42) Implements action selection, reinforcement learning, and habit formation.
 Heavily dependent on dopamine (DA) signaling through D1/D2 pathways.
 
-Cerebellum (42) – Handles coordination, timing, and predictive correction of movement.
+Cerebellum (42) Handles coordination, timing, and predictive correction of movement.
 Influenced by acetylcholine (ACh) and excitatory glutamate circuits.
 
-Thalamus System (42) – Acts as a relay and attentional gate between sensory and cortical regions.
+Thalamus System (42) Acts as a relay and attentional gate between sensory and cortical regions.
 Modulated by norepinephrine (NE) and acetylcholine (ACh) to regulate arousal and focus.
 
-Parietal Cortex (42) – Integrates spatial awareness, proprioception, and sensorimotor alignment.
+Parietal Cortex (42) Integrates spatial awareness, proprioception, and sensorimotor alignment.
 Modulated by ACh and NE for attention and spatial mapping.
 
-Insula Cortex (42) – Monitors internal body states, emotion, and risk or pain evaluation.
+Insula Cortex (42) Monitors internal body states, emotion, and risk or pain evaluation.
 Receives modulation from norepinephrine (NE) and dopamine (DA).
 
-Unified Neocortex (42) – Provides a generalized cortical microcircuit scaffold used by higher regions.
+Unified Neocortex (42) Provides a generalized cortical microcircuit scaffold used by higher regions.
 Controlled by the tri-modulator system of dopamine (DA), acetylcholine (ACh), and norepinephrine (NE).
 
 ---
